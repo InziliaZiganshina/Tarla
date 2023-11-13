@@ -122,7 +122,6 @@ body {
 
 .tools__title {
     color: #000;
-
     font-family: 'Roboto', sans-serif;
     font-size: 43px;
     font-style: normal;
@@ -197,4 +196,67 @@ body {
     font-weight: 400;
     line-height: 56.023px;
     margin-bottom: 35px;
+}
+
+.kits {
+    padding: 71px 0 85px;
+}
+
+
+.kits__inner-title {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56.023px;
+    margin-bottom: 25px;
+}
+
+.kits__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kits__item {
+    max-width: 453px;
+    margin-bottom: 36px;
+}
+
+.kits__item-img {
+    margin-bottom: 12px;
+}
+
+.kits__item-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.996px;
+    text-transform: uppercase;
+}
+
+.kits__item-text {
+    font-size: 20px;
+    line-height: 27.997px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.kits__item-btn {
+    padding: 12px 73px;
+    color: #0126DE;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.002px;
+    border-radius: 35px;
+    border: 1px solid #0126DE;
+    background-color: transparent;
+    cursor: pointer;
 }
