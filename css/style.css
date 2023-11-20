@@ -48,7 +48,30 @@ body {
     line-height: 12.802px;
     text-transform: uppercase;
     text-decoration: none;
+    position: relative;
 }
+
+/* .menu__list-link:hover {
+    text-decoration: underline;
+} */
+
+  .menu__list-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .menu__list-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 .user-nav {
     display: flex;
@@ -61,15 +84,27 @@ body {
     text-decoration: none;
 }
 
+/* .user-nav__link:hover {
+    opacity: 0.33;
+} */
+
 .user-nav__login {
     width: 49px;
     cursor: pointer;
+}
+
+.user-nav__login:hover {
+    opacity: 0.33;
 }
 
 .user-nav__cart {
     width: 37px;
     margin-left: 23px;
     cursor: pointer;
+}
+
+.user-nav__cart:hover {
+    opacity: 0.33;
 }
 
 .top {
@@ -110,6 +145,12 @@ body {
     border-radius: 35px;
     border: 1px solid #000;
     text-decoration: none;
+}
+
+.top__link:hover {
+    color: #fff;
+    background-color: #000;
+    border: none;
 }
 
 .tools {
@@ -166,6 +207,12 @@ body {
     line-height: 34.002px;
     border-radius: 35px;
     border: 1px solid #0126DE;
+}
+
+.tools__link:hover {
+    color: #fff;
+    background-color: #0126DE;
+    border: none;
 }
 
 .benefit {
@@ -259,6 +306,12 @@ body {
     border: 1px solid #0126DE;
     background-color: transparent;
     cursor: pointer;
+}
+
+.kits__item-btn:hover {
+    color: #fff;
+    background-color: #0126DE;
+    border: none;
 }
 
 .features {
@@ -377,6 +430,12 @@ body {
     border-radius: 35px;
     border: 1px solid #000;
     text-decoration: none;
+}
+
+.additions__content-link:hover {
+    color: #fff;
+    background-color: #000;
+    border: none;
 }
 
 .tarlabakes {
@@ -539,7 +598,26 @@ body {
     text-transform: uppercase;
     margin-bottom: 5px;
     text-decoration: none;
+    position: relative;
 }
+
+.footer__menu-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .footer__menu-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 .social__media {
     display: flex;
