@@ -697,10 +697,6 @@ body {
     }
 }
 
-
-@media (max-width: 1348px) {
-}
-
 @media (max-width: 1325px) {
 
     .additions__item-img-1 {
@@ -710,4 +706,25 @@ body {
 
         right: 251px;
     }
+
+    .top__inner {
+        background-size: 65%;
+    }
+}
+
+@media (max-width: 1235px) {
+
+.features__item {
+    width: 359px;
+    height: auto;
+    padding: 19px;
+}
+
+.features__item-img {
+    width: 89%;
+}
+
+.features__item-title {
+    font-size: 46px;
+}
 }
