@@ -628,6 +628,8 @@ body {
     margin-left: 10px;
 }
 
+
+
 @media (max-width: 1390px) {
 
     .kits {
@@ -635,14 +637,12 @@ body {
     }
 
     .features__inner {
-       
         padding-top: 485px;
         background-size: 52%;
         background-position: top center;
     }
 
     .kits__items {
-
         align-items: center;
         text-align: center;
     }
@@ -652,8 +652,25 @@ body {
     }
 
     .kits__item-img {
-
         width: 90%;
     }
+}
 
+@media (max-width: 1375px) {
+
+    .features__item {
+        width: 402px;
+    }
+
+    .features__item + .features__item  {
+        margin-left: 3px;
+    }
+
+    .features__item-img {
+        width: 99%;
+    }
+
+    .features__item-title {
+        font-size: 52px;
+    }
 }
