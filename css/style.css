@@ -627,3 +627,33 @@ body {
 .social__media-item+.social__media-item {
     margin-left: 10px;
 }
+
+@media (max-width: 1390px) {
+
+    .kits {
+        padding: 71px 0 0;
+    }
+
+    .features__inner {
+       
+        padding-top: 485px;
+        background-size: 52%;
+        background-position: top center;
+    }
+
+    .kits__items {
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .kits__item {
+        max-width: 387px;
+    }
+
+    .kits__item-img {
+
+        width: 90%;
+    }
+
+}
