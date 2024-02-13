@@ -719,6 +719,7 @@ body {
         width: 359px;
         height: auto;
         padding: 19px;
+       /*padding: 30px;*/
     }
 
     .features__item-img {
